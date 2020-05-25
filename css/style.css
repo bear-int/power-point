@@ -1,0 +1,121 @@
+/*body {
+margin-left: 100px;
+margin-right: 10 px
+}
+*/
+	 /*'Comic Sans MS';*/
+	 
+	 
+	@font-face {
+   font-family: weathered-webfont; 
+   src: url(../fonts/weathered-webfont.eot);
+   src: local('?'), 
+   url(../fonts/weathered-webfont.ttf);
+       }  
+       
+  
+   body{ text-align: center;   
+   background-image: url(../IMG/tops.gif);
+   color:#fe161c;
+   
+   }
+   
+   
+   
+   
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   }
+   
+   a {text-decoration: none;
+   }
+
+   a:link{
+   	color:#FF0000;
+   	text-decoration: none;
+   }
+   a:visited{
+   	color:#990066;
+   	text-decoration: none;
+   
+   }
+   
+   
+   
+   
+   
+   
+   p {
+   padding-top: 0;
+   margin-top: 0;
+   }
+    
+   h2 {
+   padding-top: 0;
+   margin-top: 0;
+   text-align: center;
+   font-size: 1.1em;
+   color: #33ff00;
+   font-family: "Comic Sans MS";
+   }
+   
+
+   .layer {
+   text-align: left;
+   margin: 0 auto;
+	background:   url(../IMG/gandex.jpg); /* Цвет фона */
+   border: 0px solid #6600ff; /* Параметры рамки */
+   width:1000px;
+   height:809px;
+	     }   
+  	  
+    .box2 {
+   padding: 10px;
+   text-align: left;
+   margin-left: 30px;
+   margin-top: 10px;
+   width:550px;
+   height:600px;
+   border:0px solid red;
+   background-color: rgba(178,178,178,0.25);
+   filter:progid:DXImageTransform.Microsoft.gradient (startColorstr=#50b2b2b2,endColorstr=#50b2b2b2);
+          }
+ 
+   
+       .box3 {
+   padding: 5px;
+   text-align: ctnter;
+   width:230px;
+   height:10px;
+   margin-left: 400px;
+   margin-top: 130px;
+   border:0px solid red;
+   font-size: 10px;
+   font-family: Tahoma;
+   color:yellow;
+   font-weight: bold;
+          }
+   
+   
+   
+   
+   
+   
+   .ws2{
+   color: #ff1493;
+   font-size: 23px;
+   font-family: Trebuchet MS;
+   }
+ 
+	.ws3 {
+	font-family: weathered-webfont; 
+    color:#80ff00;
+	text-align: center;
+	font-size: 28px;
+	}
+	
+	.ws5 {
+	font-family: Comic Sans MS; 
+	color: yellow; 
+	text-align: left; 
+	font-size: 1.2em; 
+	}
+	

@@ -1,0 +1,68 @@
+
+
+	@font-face {
+   font-family: weathered-webfont; 
+   src: url(../fonts/weathered-webfont.eot);
+   src: local('?'), 
+   url(../fonts/weathered-webfont.ttf);
+       }  
+
+
+
+
+    .layer {
+    text-align: left;
+    margin: 0 auto;
+	background:   url(../IMG/11197.jpg); /* Цвет фона */
+    border: 0px solid #6600ff; /* Параметры рамки */
+    width:1000px;
+    height:768px;
+	     }
+
+		    h2 {
+   padding-top: 0;
+   margin-top: 0;
+   text-align: left;
+   font-size: 2.8em;
+   color: #33ff00;
+   font-family: "Comic Sans MS";
+   }
+
+
+		    p {
+   padding-top: 0;
+   margin-top: 0;
+   text-align: left;
+   font-size: 2.2em;
+   color: #ffff00;
+   font-family: "Tahoma";
+   }
+
+.a1 {
+   padding: 5px;
+   text-align:ctnter;
+   margin-top:35px; 
+   margin-left:600px;
+   width:380px;
+   height:600px;
+   border:1px solid red;
+	font-size: 1.5em; 
+   font-family: Comic Sans MS;
+   color:yellow;
+   font-weight: bold;
+   position: absolute;
+   }
+
+   		.ws5 {
+	font-family: Trebuchet MS; 
+	color: #ccff33; 
+	text-align: left; 
+	font-size: 20px; 
+	} 
+	 
+		 	.ws3 {
+
+	font-family: weathered-webfont; 
+    color:#80ff00;
+	font-size: 1.4em; 
+	}
