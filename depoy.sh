@@ -9,7 +9,8 @@ DATE_TIME=$(date "+%Y%m%d-%H%M%S")
 echo "docker build"
 docker build -t gcr.io/$PROJECT_NAME/$DOCKER_IMAGE_NAME::$DATE_TIME .
 
-echo Connect to GCloud "если запускаю с локалки то убрать"
+# если запускаю с локалки то убрать
+echo Connect to GCloud 
 echo $GCLOUD_SERVICE_KEY | base64 --decode -i > ${HOME}/gcloud-service-key.json
 gcloud auth activate-service-account --key-file ${HOME}/gcloud-service-key.json
 gcloud --quiet config set project $PROJECT_NAME
