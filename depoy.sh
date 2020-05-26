@@ -7,7 +7,7 @@ ZONE_EN1B=europe-north1-b
 DATE_TIME=$(date "+%Y%m%d-%H%M%S")
 
 echo "docker build"
-docker build -t gcr.io/$PROJECT_NAME/$DOCKER_IMAGE_NAME::$DATE_TIME .
+docker build -t gcr.io/$PROJECT_NAME/$DOCKER_IMAGE_NAME:$DATE_TIME .
 
 # если запускаю с локалки то убрать
 echo Connect to GCloud 
